@@ -11,7 +11,7 @@ app.post('/saudacao', (req, res) => {
     const { nome } = req.body;
 
     res.json({
-        mensagem: `Olá ${nome}!`
+        mensagem: `Olá ${nome}, torne-se aluno do Allan e vire um mago do T.I. também!`
     });
 
 });
